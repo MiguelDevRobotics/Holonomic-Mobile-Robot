@@ -2,6 +2,15 @@
 
 An open-source, cost-effective omnidirectional mobile robot designed for testing and development. This repository integrates mechanical design, custom electronics (PCB), and ROS 1 software architecture.
 
+[![DOI](https://zenodo.org/badge/DOI/10.1109/COMRob64055.2024.10777460.svg)](https://doi.org/10.1109/COMRob64055.2024.10777460)
+
+---
+
+
+## Robot Demo
+
+[![Watch the video demo](https://img.youtube.com/vi/Kpx_oRYwRCc/0.jpg)](https://www.youtube.com/watch?v=Kpx_oRYwRCc)
+
 ---
 
 ## System Overview & Tech Stack
@@ -66,3 +75,21 @@ git submodule update --init --recursive
    ```
 
 ---
+
+## Citation / References
+
+If you use this project in your research or work, please cite our paper:
+
+Santiago-Vásquez, M. J., Carmona-Ruiz, D., Salado-Chávez, K. I., & Ramírez-Cárdenas, O. D. (2024). Development of an Autonomous Omnidirectional Robot for Obstacle Avoidance Using Potential Fields. In 2024 XXVI Robotics Mexican Congress (COMRob), pp. 79-84. DOI: 10.1109/COMRob64055.2024.10777460
+
+```bibtex
+@INPROCEEDINGS{10777460,
+  author={Santiago-Vásquez, Miguel J. and Carmona-Ruiz, Deisy and Salado-Chávez, Karla I. and Ramírez-Cárdenas, Oscar D.},
+  booktitle={2024 XXVI Robotics Mexican Congress (COMRob)}, 
+  title={Development of an Autonomous Omnidirectional Robot for Obstacle Avoidance Using Potential Fields}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={79-84},
+  doi={10.1109/COMRob64055.2024.10777460}}
+```
