@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/prueba_tf_listener.dir/src/prueba_tf_listener.cpp.o  -o /home/mike/robot_omni_ws/devel/lib/control_cinematico/prueba_tf_listener 

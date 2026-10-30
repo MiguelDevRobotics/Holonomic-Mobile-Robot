@@ -1,0 +1,8 @@
+prefix=/home/mike/robot_omni_ws/devel
+
+Name: control_cinematico
+Description: Description of control_cinematico
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs nav_msgs roscpp rospy tf

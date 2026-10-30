@@ -1,0 +1,7 @@
+<launch>
+ <node pkg="rosserial_python" name="Jetson_Omnibot" type="serial_node.py" output="screen">
+  <param name="puerto_serial" value="/dev/ttyUSB0" type="string" />
+ </node>
+
+ <node type="rviz" name="rviz" pkg="rviz" args="-d $(find control_cinematico)/src/rviz/tf_rviz.rviz" />
+</launch>

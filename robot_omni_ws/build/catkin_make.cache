@@ -1,0 +1,2 @@
+control_cinematico:ldlidar_stl_ros
+-DCATKIN_DEVEL_PREFIX=/home/mike/robot_omni_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mike/robot_omni_ws/install -G Unix Makefiles

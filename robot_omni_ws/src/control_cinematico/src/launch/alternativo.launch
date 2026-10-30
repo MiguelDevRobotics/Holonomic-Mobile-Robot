@@ -1,0 +1,10 @@
+<launch>
+ <node pkg="rosserial_python" name="Jetson_Omnibot" type="serial_node.py" output="screen">
+  <param name="puerto_serial" value="/dev/ttyUSB1" type="string" />
+ </node>
+
+<!--
+ <include file="$(find ldlidar_stl_ros)/launch/ld19usb0.launch"/>
+-->
+
+</launch>
